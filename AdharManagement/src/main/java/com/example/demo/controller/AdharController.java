@@ -16,7 +16,7 @@ import com.example.demo.service.AdharService;
 public class AdharController {
 
 	@Autowired
-	AdharService adharService;
+	AdharService adharServiceeee;
 
 	@PostMapping("adhar")
 	ResponseEntity assginAdhar(@RequestBody AdharDto dto) {
